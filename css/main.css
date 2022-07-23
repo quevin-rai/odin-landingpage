@@ -55,22 +55,32 @@ button {
         /* border: 5px solid black; */
     }
 
-        .section-main-left > span {
-            font-size: 36px;
-            font-weight: bolder;
-            color: #F9FAF8;
+        .section-main-left {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
         }
 
-        .section-main-left > p {
-            font-size: 12px;
-            color: #E5E7EB;
-        }
+            .section-main-left > span {
+                font-size: 36px;
+                font-weight: bolder;
+                color: #F9FAF8;
+            }
+
+            .section-main-left > p {
+                font-size: 12px;
+                color: #E5E7EB;
+            }
+
+            .section-main-left > button {
+                align-self: flex-start;
+            }
 
         .section-main-right {
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 500px;
+            width: 450px;
             height: 180px;
             background-color: #6E747D;
             color: #E5E7EB;
